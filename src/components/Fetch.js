@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 function Fetch1() {
     const [data, setData] = useState(null);
     useEffect(() => {
-      fetch("https://dog.ceo/api/breeds/image/random")
+      fetch('https://dog.ceo/api/breeds/image/random')
         .then((resp) => resp.json())
         .then((apiData) => {
           setData(apiData.message);
