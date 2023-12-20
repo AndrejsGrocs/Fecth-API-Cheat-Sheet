@@ -54,6 +54,27 @@ export default function Landing() {
       });
   };
 
+      const onDelete = async (id) =>{
+        await fetch(`https://jsonplaceholder.typicode.com/users/${id}`,{
+          method: 'DELETE'
+
+        })
+        .then((res)=>{
+          if(res.status !== 200){
+            return
+          }else{
+            setUsers(users.filter((user)=>{
+              return user.id !==id
+
+            }))
+          }
+        })
+        .catch((err)=>{
+           console.log(err)
+
+        })
+
+      }
 
   console.log(users);
 
@@ -64,7 +85,7 @@ export default function Landing() {
       <AddUser onAdd={onAdd}/>
 
       {users.map((user)=> (
-        <User id={user.id} key={user.id} name={user.name} email={user.email} />
+        <User id={user.id} key={user.id} name={user.name} email={user.email} onDelete={onDelete} />
       ))
 
       }
