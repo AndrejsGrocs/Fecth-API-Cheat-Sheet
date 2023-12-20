@@ -1,9 +1,8 @@
 import React, { useEffect, useState }  from 'react'
 import axios from 'axios'
-import { User } from "../../components/User";
-import AddUser from "../../components/AddUser";
 
-function Page3({onDelete}) {
+
+function Page3() {
  
   return (
     <div className='page-3-body'>
