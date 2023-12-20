@@ -1,0 +1,31 @@
+
+@import "../src/views/NavBar/navbar.scss";
+@import url('../src/views/Landing/landing.scss');
+@import url('../src/views/Page1/page1.scss');
+@import url('../src/views/Page2/page2.scss');
+@import url('../src/views/Page3/page3.scss');
+@import url('../src/views/Footer/footer.scss');
+@import url('../src/components/user.scss');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
