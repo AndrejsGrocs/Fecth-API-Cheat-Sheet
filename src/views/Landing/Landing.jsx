@@ -87,8 +87,9 @@ export default function Landing() {
       {users.map((user)=> (
         <User id={user.id} key={user.id} name={user.name} email={user.email} onDelete={onDelete} />
       ))
-
       }
+
+      <h1>{}</h1>
     </div>
   );
 }
