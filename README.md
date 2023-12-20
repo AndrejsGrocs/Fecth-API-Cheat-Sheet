@@ -2,16 +2,7 @@
 
 ![My Image](react-nav-project.jpg)
 
-# React Template Project with created navigation and some scss files to the pages.
-
-
-If you need to create some project on React you can use this template.
-The template contains a Navigation menu linked to the pages implemented with React Navigation Routing.
-Navigation Bar contains a logo and social media icons sections.
-Also, some scss classes are prepared for use.
-
-
-
+# React Template Project Cheat Sheet for API Review.
 
 
 
